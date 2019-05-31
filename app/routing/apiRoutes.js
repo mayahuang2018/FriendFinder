@@ -40,6 +40,8 @@ module.exports = function(app) {
       }
     }
 
+    //Once you've found the best match, display the result as a modal pop-up.
+    //The modal should display both the name and picture of the closest match.
     var bff = friendsData[bestMatch];
     friendsData.push(newFriend);
       res.json(bff);
